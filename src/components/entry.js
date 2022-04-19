@@ -100,7 +100,7 @@ function Entry() {
           <Typography className={styles.headertext}>Hi, I'm <span>Juho</span></Typography>
           <Typography className={styles.headertext}>I'm a <span>web developer</span></Typography>
             <div className={styles.blink}>
-              <Link className={styles.link} sx={{color: "white", float: "right", fontVariant: "all-petite-caps"}} href="/front">Read more
+              <Link className={styles.link} desc sx={{color: "white", float: "right", fontVariant: "all-petite-caps"}} href="/front">Continue
                 <ArrowForwardIosIcon className={styles.link} sx={{marginBottom: "-6px"}}/> 
               </Link>
             </div>

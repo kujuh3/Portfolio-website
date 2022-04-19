@@ -1,10 +1,9 @@
-import logo from './logo.svg';
 import Projects from './components/projects';
 import Contact from './components/contact';
 import Frontpage from './components/frontpage';
 import Menu from './components/menu';
 import Entry from './components/entry';
-import { useLocation, Routes, Route, Navigate } from 'react-router-dom';
+import { useLocation, Routes, Route } from 'react-router-dom';
 
 function App() {
 

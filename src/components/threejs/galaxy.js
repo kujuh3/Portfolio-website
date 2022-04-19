@@ -1,6 +1,6 @@
 import * as THREE from 'three'
 import React, { Suspense, useRef, useState, useEffect } from 'react'
-import { Canvas, useFrame, useThree } from '@react-three/fiber'
+import { Canvas, useFrame } from '@react-three/fiber'
 import { EffectComposer, DepthOfField, Bloom } from '@react-three/postprocessing'
 import { useControls, folder } from 'leva'
 
@@ -68,9 +68,6 @@ function Galaxy({ dof }) {
     }),
   })
   const particles = useRef()
-  //const [movement] = useState(() => new THREE.Vector3())
-  const [temp] = useState(() => new THREE.Vector3())
-  const [focus] = useState(() => new THREE.Vector3())
 
   useEffect(() => {
     generateGalaxy()
