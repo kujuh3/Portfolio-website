@@ -9,7 +9,6 @@ import { TextField } from '@mui/material';
 import emailjs from '@emailjs/browser';
 import Button from '@mui/material/Button';
 import SendIcon from '@mui/icons-material/Send';
-import InfoThree from './threejs/contactthree';
 
 const useStyles = makeStyles({
     background : {
@@ -65,7 +64,8 @@ const useStyles = makeStyles({
       backgroundColor: "#271542",
       borderRadius: "5px",
       marginTop: "40px",
-      marginBottom: "100px"
+      marginBottom: "100px",
+      boxShadow:"2px 2px 5px #000"
     },
     headertitle: {
       color: "white",
@@ -215,17 +215,14 @@ function Frontpage() {
                   <TextField sx={{width: "50%"}} name="user_name" id="nimi" label="Name" variant="outlined"/>
                   <TextField sx={{width: "50%"}} name="user_email" id="sposti" label="Email" variant="outlined"/>
                 </div>
-                <td/>
                 <TextField sx={{width: "100%"}} name="message" className={styles.viesti} multiline rows={8} id="viesti" label="Message" variant="outlined"/>
-                <td/>
                 <Button
                     variant="contained"
                     color="primary"
                     className={styles.button}
                     type="submit"
                     endIcon={<SendIcon></SendIcon>}
-                >
-                    Send
+                >Send
                 </Button>
               </form>
       </div>

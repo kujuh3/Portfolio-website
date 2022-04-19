@@ -7,6 +7,7 @@ import { Link as Weblink } from "@mui/material";
 import PreviewIcon from '@mui/icons-material/Preview';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import { useTrail, a } from 'react-spring'
+import Trail from '../animations/trail';
 
 const useStyles = makeStyles({
     container: {
@@ -54,7 +55,7 @@ const useStyles = makeStyles({
 
 });
 
-function Trail({ open, children, ...props }) {
+/*function Trail({ open, children, ...props }) {
   const items = React.Children.toArray(children)
   const trail = useTrail(items.length, {
     config: { mass: 5, tension: 2000, friction: 300 },
@@ -77,7 +78,7 @@ function Trail({ open, children, ...props }) {
       </div>
     </div>
   )
-}
+}*/
 
 export default function App() {
   const styles = useStyles();
@@ -98,8 +99,8 @@ export default function App() {
       return (
         <>
             {Projects.map((project, index) => {
-            return(<>
-            <Paper sx={{border: "1px white solid"}} className={styles.projectpaper} elevation={3}>
+            return(
+            <Paper key={index} sx={{border: "1px white solid"}} className={styles.projectpaper} elevation={3}>
                 <div style={{display: "block !important"}}>
                         <div className={styles.title}>
                         <Typography className={styles.headertext} variant="h3">{project.name}</Typography>
@@ -110,7 +111,7 @@ export default function App() {
                         </div>
                         <div style={{marginTop: "2px"}}>
                         {project.techs.map((tech) =>{
-                            return(<Chip sx={{backgroundColor: "#F69B15 !important", margin:"1px", color: "white !important"}} label={tech} />)
+                            return(<Chip key={tech} sx={{backgroundColor: "#F69B15 !important", margin:"1px", color: "white !important"}} label={tech} />)
                             })}
                         </div>
                         <div style={{marginTop: "30px", backgroundColor: "#73737385", padding: "10px", borderRadius: "4px", boxShadow: "5px 4px #f69b15"}}>
@@ -119,7 +120,6 @@ export default function App() {
                     </div>
                         <a href={project.link} rel="noreferrer" target="_blank"><img alt="Preview" style={{width: "100%", marginTop: "10px"}} src={project.picture}/></a>
             </Paper>
-            </>
             );
             })}
         </>
@@ -128,8 +128,8 @@ export default function App() {
   return (
     <>
         {Projects.map((project, index) => {
-        return(<>
-        <Paper className={styles.projectpaper} elevation={3}>
+        return(
+        <Paper key={index} className={styles.projectpaper} elevation={3}>
             <div className={styles.textcontainer}>
                 <div className={styles.textleft}>
                     <div className={styles.title}>
@@ -141,7 +141,7 @@ export default function App() {
                     </div>
                     <div style={{marginTop: "2px"}}>
                     {project.techs.map((tech) =>{
-                        return(<Chip sx={{backgroundColor: "#F69B15 !important", margin:"1px", color: "white !important"}} label={tech} />)
+                        return(<Chip key={tech} sx={{backgroundColor: "#F69B15 !important", margin:"1px", color: "white !important"}} label={tech} />)
                         })}
                     </div>
                     <div style={{marginTop: "30px", backgroundColor: "#73737385", padding: "10px", borderRadius: "4px", boxShadow: "5px 4px #f69b15"}}>
@@ -153,7 +153,6 @@ export default function App() {
                 </div>
             </div>
         </Paper>
-        </>
         );
         })}
     </>
@@ -162,8 +161,8 @@ export default function App() {
     return (
       <>
           {Projects.map((project, index) => {
-          return(<>
-          <Trail open={open}>
+          return(
+          <Trail key={index} open={open}>
           <Paper className={styles.projectpaper} elevation={3}>
               <div className={styles.textcontainer}>
                   <div className={styles.textleft}>
@@ -176,7 +175,7 @@ export default function App() {
                       </div>
                       <div style={{marginTop: "2px"}}>
                       {project.techs.map((tech) =>{
-                          return(<Chip sx={{backgroundColor: "#F69B15 !important", margin:"1px", color: "white !important"}} label={tech} />)
+                          return(<Chip key={tech} sx={{backgroundColor: "#F69B15 !important", margin:"1px", color: "white !important"}} label={tech} />)
                           })}
                       </div>
                       <div style={{marginTop: "30px", backgroundColor: "#73737385", padding: "10px", borderRadius: "4px", boxShadow: "5px 4px #f69b15"}}>
@@ -189,7 +188,6 @@ export default function App() {
               </div>
           </Paper>
           </Trail>
-          </>
           );
           })}
       </>

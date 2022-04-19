@@ -40,10 +40,10 @@ function Footer() {
     <div className={styles.footer}>
         <Typography className={styles.footertext} color="white">©Juho Kujala</Typography>
         <div className={styles.icons}>
-          <Link href="https://www.linkedin.com/in/kujala1/" target="_blank">
+          <Link href="https://www.linkedin.com/in/kujala1/" title="LinkedIn" target="_blank">
             <LinkedInIcon sx={{color: "white", fontSize: "30px"}}/>
           </Link>
-          <Link href="http://www.github.com/kujuh3" target="_blank">
+          <Link href="http://www.github.com/kujuh3" title="GitHub" target="_blank">
             <GitHubIcon sx={{color: "white", fontSize: "30px"}}/>  
           </Link>      
         </div>     

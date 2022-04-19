@@ -10,6 +10,7 @@
     "@mui/material": "^5.5.3",
     "@mui/styled-engine-sc": "^5.5.2",
     "@mui/styles": "^5.5.3",
+    "@radix-ui/react-popover": "^0.1.6",
     "@react-three/drei": "^8.10.7",
     "@react-three/fiber": "^6.2.3",
     "@react-three/postprocessing": "^2.3.2",

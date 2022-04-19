@@ -18,6 +18,7 @@
   position: absolute;
   transform: rotate(-3deg);
   background-color: #271542;
+  box-shadow: 5px 5px 5px black;
 }
 
 span {

@@ -9,6 +9,7 @@ import Footer from "./footer";
 import LinearProgress from '@mui/material/LinearProgress';
 import Boxhtml from './threejs/frontthree';
 import HiddenGalaxy from './threejs/galaxy';
+import Trail from './animations/trail';
 
 const useStyles = makeStyles({
     background : {

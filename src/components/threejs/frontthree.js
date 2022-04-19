@@ -64,7 +64,7 @@ function Stars(props) {
   return (<>
   <Effects/>
     <group rotation={[0, 0, Math.PI / 4]}>
-      <Points ref={ref} positions={sphere} stride={3} frustumCulled={true} {...props}>
+      <Points ref={ref} positions={sphere} stride={3} frustumCulled={false} {...props}>
         <PointMaterial transparent color="#ffa700" size={0.1} sizeAttenuation={true} depthWrite={true} />
       </Points>
     </group>
