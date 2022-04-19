@@ -1,0 +1,60 @@
+@media only screen and (max-width: 460px) {
+  #topbox {
+    left: -10px;
+    width: 106% !important;
+    bottom: -52px;
+    height: 21% !important;
+    position: absolute;
+    transform: rotate(3deg);
+    background-color: #271542;
+  }
+}
+
+#topbox {
+  left: -10px;
+  width: 103%;
+  bottom: -52px;
+  height: 35%;
+  position: absolute;
+  transform: rotate(-3deg);
+  background-color: #271542;
+}
+
+span {
+    color: #ffa700;
+}
+
+#root {
+  overflow-x: hidden;
+}
+
+.MuiChip-label.MuiChip-labelMedium.css-6od3lo-MuiChip-label {
+  color: white;
+}
+
+.css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root {
+  color: white !important;
+}
+
+.sketch-picker{
+  z-index: 2;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+.css-10fds8p-MuiButtonGroup-root .MuiButtonGroup-grouped:hover {
+    background-color: #ffa70066;
+}
+
+.css-qhoknl-MuiLinearProgress-bar1 {
+  background-color: white !important;
+}
+
+.css-1qdnzt4-MuiLinearProgress-bar2 {
+   background-color: rgb(255, 167, 0) !important;
+}

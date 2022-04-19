@@ -1,0 +1,32 @@
+[
+    {
+        "name" : "CV/Portfolio site",
+        "picture" : "/img/cvsite.webp",
+        "description" : "My previous portfolio site. First real touch at making a website with React. Designed to be as responsible as possible. Includes an info section for: 'Header info', 'Education', 'Skills and details', 'Socials', 'Contact'.",
+        "github" : "https://github.com/kujuh3/CVSITE",
+        "link" : "https://helpful-swan-f2321b.netlify.app/",
+        "techs" : [
+            "React", "CSS", "HTML", "Material-UI", "Node"
+        ]
+    },
+    {
+        "name" : "Weather app",
+        "picture" : "/img/weatherapp.webp",
+        "description" : "A simple weather application. Fetches data from an API and displays them. Includes an umlauts filter, so that äåö work properly. Currently only works for finnish towns.",
+        "github" : "https://github.com/kujuh3/weatherapp",
+        "link" : "https://cosmic-clafoutis-7c093f.netlify.app/",
+        "techs" : [
+            "React", "CSS", "HTML", "Material-UI"
+        ]
+    },
+    {
+        "name" : "Post-stamps app",
+        "picture" : "/img/stampapp.webp",
+        "description" : "Simple display of React pagination, routes and id's. Loads data of post stamps from a .JSON file, and displays them. Each page consists of 20 stamps, along with their simplified information. Clicking on any stamp opens up their details in a new display.",
+        "github" : "https://github.com/kujuh3/postimerkit",
+        "link" : "https://helpful-swan-f2321b.netlify.app/",
+        "techs" : [
+            "React", "CSS", "HTML", "Material-UI", "React-Router"
+        ]
+    }
+]
