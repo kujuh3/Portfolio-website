@@ -4,9 +4,19 @@
         "picture" : "/img/cvsite.webp",
         "description" : "My previous portfolio site. First real touch at making a website with React. Designed to be as responsible as possible. Includes an info section for: 'Header info', 'Education', 'Skills and details', 'Socials', 'Contact'.",
         "github" : "https://github.com/kujuh3/CVSITE",
-        "link" : "https://helpful-swan-f2321b.netlify.app/",
+        "link" : "https://tietsikkajuho.netlify.app/",
         "techs" : [
             "React", "CSS", "HTML", "Material-UI", "Node"
+        ]
+    },
+    {
+        "name" : "CV/Portfolio site V2",
+        "picture" : "/img/cvsitev2.webp",
+        "description" : "Current portfolio site. A little more playful and creative, a simplified approach. Optimized for mobile and desktop usage. Weirdly fast, gets all 100's on lighthouse test (if google fonts doesn't slow down).",
+        "github" : "https://github.com/kujuh3/CVSITE",
+        "link" : "https://www.tietsikkajuho.fi/",
+        "techs" : [
+            "React", "CSS", "JS", "Material-UI", "Node", "ThreeJS" 
         ]
     },
     {
