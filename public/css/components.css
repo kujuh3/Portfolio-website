@@ -29,11 +29,11 @@ span {
   overflow-x: hidden;
 }
 
-.MuiChip-label.MuiChip-labelMedium.css-6od3lo-MuiChip-label {
+.MuiChip-label.MuiChip-labelMedium {
   color: white;
 }
 
-.css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root {
+.MuiInputLabel-root {
   color: white !important;
 }
 
@@ -52,10 +52,10 @@ span {
     background-color: #ffa70066;
 }
 
-.css-qhoknl-MuiLinearProgress-bar1 {
-  background-color: white !important;
+.MuiLinearProgress-barColorPrimary {
+   background-color: rgb(255, 167, 0) !important;
 }
 
-.css-1qdnzt4-MuiLinearProgress-bar2 {
-   background-color: rgb(255, 167, 0) !important;
+.MuiLinearProgress-colorPrimary{
+ background-color:white !important;
 }
