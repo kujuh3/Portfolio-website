@@ -214,7 +214,7 @@ function Frontpage() {
                   <TextField sx={{width: "50%"}} name="user_name" id="nimi" label="Name" variant="outlined"/>
                   <TextField sx={{width: "50%"}} name="user_email" id="sposti" label="Email" variant="outlined"/>
                 </div>
-                <TextField sx={{width: "100%"}} name="message" className={styles.viesti} multiline rows={8} id="viesti" label="Message" variant="outlined"/>
+                <TextField sx={{width: "100%", marginTop: "7px"}} name="message" className={styles.viesti} multiline rows={8} id="viesti" label="Message" variant="outlined"/>
                 <Button
                     variant="contained"
                     color="primary"
