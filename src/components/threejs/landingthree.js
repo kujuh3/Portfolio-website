@@ -44,7 +44,7 @@ export default function App() {
 const Effects = React.forwardRef((props, ref) => {
   return (
     <EffectComposer multisampling={1}>
-      <Bloom luminanceThreshold={0.3} luminanceSmoothing={0.9}/>
+      <Bloom luminanceThreshold={0.3} radius={0.2} intensity={0.2} luminanceSmoothing={1}/>
     </EffectComposer>
   )
 })
