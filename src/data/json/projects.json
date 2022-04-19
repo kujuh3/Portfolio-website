@@ -13,7 +13,7 @@
         "name" : "CV/Portfolio site V2",
         "picture" : "/img/cvsitev2.webp",
         "description" : "Current portfolio site. A little more playful and creative, a simplified approach. Optimized for mobile and desktop usage. Weirdly fast, gets all 100's on lighthouse test (if google fonts doesn't slow down).",
-        "github" : "https://github.com/kujuh3/CVSITE",
+        "github" : "https://github.com/kujuh3/Portfolio-website",
         "link" : "https://www.tietsikkajuho.fi/",
         "techs" : [
             "React", "CSS", "JS", "Material-UI", "Node", "ThreeJS" 
