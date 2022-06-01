@@ -1,5 +1,15 @@
 [
     {
+        "name" : "Codesnippets",
+        "picture" : "/img/codesnippets.webp",
+        "description" : "Doing a little coding? Forgot if it was += or =+? Come in and grab a quick codesnippet! This site offers you an listing of code snippets categorized by both language and purpose. Feel like it's missing something? Add it!  --  Future updates: It's a damn free-for-all, all codes get an vote of thumbs up or down and at the end of the day codes with negative like ratio get deleted.",
+        "github" : "https://github.com/kujuh3/codesnippets",
+        "link" : "https://quicksnippets.herokuapp.com/",
+        "techs" : [
+            "React", "React", "Node", "Express", "PostgreSQL" 
+        ]
+    },
+    {
         "name" : "CV/Portfolio site",
         "picture" : "/img/cvsite.webp",
         "description" : "My previous portfolio site. First real touch at making a website with React. Designed to be as responsible as possible. Includes an info section for: 'Header info', 'Education', 'Skills and details', 'Socials', 'Contact'.",
