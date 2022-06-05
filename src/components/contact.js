@@ -169,6 +169,8 @@ const useStyles = makeStyles({
 
 
 function Frontpage() {
+    
+  document.title = "Contact"
   const styles = useStyles();
   function submit(e){
     e.preventDefault();
