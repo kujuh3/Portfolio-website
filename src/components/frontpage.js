@@ -130,6 +130,7 @@ const useEventListener = (eventName, handler, element = window) => {
 
 
 function Frontpage() {
+    document.title = "Front page"
     const [easterEgg, setEasterEgg] = useState(false);
     var [Maria, setMaria] = useState("");
     const styles = useStyles();
