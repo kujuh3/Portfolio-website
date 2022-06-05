@@ -75,6 +75,7 @@ const useStyles = makeStyles({
 
 function Projects() {
     const styles = useStyles();
+    document.title = "Projects"
 
   return (
     <>
