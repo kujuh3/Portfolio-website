@@ -3,7 +3,7 @@
         "name" : "Codesnippets",
         "picture" : "/img/codesnippets.webp",
         "description" : "Doing a little coding? Forgot if it was += or =+? Come in and grab a quick codesnippet! This site offers you an listing of code snippets categorized by both language and purpose. Feel like it's missing something? Add it!",
-        "github" : "https://github.com/kujuh3/codesnippets",
+        "github" : "https://github.com/kujuh3/Codesnippets__React-Node-Express-PostgreSQL",
         "link" : "https://quicksnippets.herokuapp.com/",
         "techs" : [
             "React", "Node", "Express", "PostgreSQL" 
