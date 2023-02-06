@@ -103,7 +103,7 @@ function Projects() {
     {/*CONTENT*/}
     <Container className={styles.container}>
       <div className={styles.title}>
-        <Typography variant="h4">2022</Typography>
+        <Typography variant="h4">2022 - 2023</Typography>
       </div>
       <ProjectThree/>
         
