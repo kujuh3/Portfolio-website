@@ -1,4 +1,15 @@
 [
+    
+    {
+        "name" : "Twitter Bot",
+        "picture" : "/img/twitterbot.webp",
+        "description" : "It's a follower churn bot to be more precise. Follow users of another user and unfollow them on demand while carefully operating around ban offences. Realtime data writing, kind of practical, really.",
+        "github" : "https://github.com/kujuh3/Twitter-follow-unfollow",
+        "link" : "https://github.com/kujuh3/Twitter-follow-unfollow",
+        "techs" : [
+            "Python", "Tweepy" 
+        ]
+    },
     {
         "name" : "Codesnippets",
         "picture" : "/img/codesnippets.webp",
