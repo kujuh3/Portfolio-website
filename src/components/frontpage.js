@@ -172,9 +172,9 @@ function Frontpage() {
       </div>
         <div className={styles.textcontainer}>
           <div className={styles.textleft}>
-            <Typography>I'm a 25 year old computer science student from Seinäjoki. Everything computer related has always been close at heart, and currently I'm looking to fulfill my yearn for working as a developer.</Typography>
+            <Typography>I'm a 26 year old computer science student from Tampere.</Typography>
             <br/>
-            <Typography>As a person I've grown up to be a team player. Being humble is my signature, never take offense to criticism – and always keep on improving.</Typography>
+            <Typography>Born and raised team player - being humble is my signature, never take offense to criticism – and always keep on improving.</Typography>
           </div>
             <div className={styles.textright}>
               <Typography>You can catch me at</Typography>
