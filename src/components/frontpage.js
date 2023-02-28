@@ -203,11 +203,11 @@ function Frontpage() {
                 <br/>
                 <Typography className={styles.skill} color="#ffa700" variant="h6">JS</Typography><LinearProgress className={styles.skillprogress} valueBuffer={100} variant="buffer" value={80}/>
                 <br/>
-                <Typography className={styles.skill} color="#ffa700" variant="h6">PHP</Typography><LinearProgress className={styles.skillprogress} valueBuffer={100} variant="buffer" value={60}/>
+                <Typography className={styles.skill} color="#ffa700" variant="h6">Python</Typography><LinearProgress className={styles.skillprogress} valueBuffer={100} variant="buffer" value={60}/>
                 <br/>
-                <Typography className={styles.skill} color="#ffa700" variant="h6">SQL</Typography><LinearProgress className={styles.skillprogress} valueBuffer={100} variant="buffer" value={40}/>
+                <Typography className={styles.skill} color="#ffa700" variant="h6">SQL</Typography><LinearProgress className={styles.skillprogress} valueBuffer={100} variant="buffer" value={50}/>
                 <br/>
-                <Typography className={styles.skill} color="#ffa700" variant="h6">Python</Typography><LinearProgress className={styles.skillprogress} valueBuffer={100} variant="buffer" value={40}/>
+                <Typography className={styles.skill} color="#ffa700" variant="h6">PHP</Typography><LinearProgress className={styles.skillprogress} valueBuffer={100} variant="buffer" value={40}/>
               </div>
              </div>
             </div>
