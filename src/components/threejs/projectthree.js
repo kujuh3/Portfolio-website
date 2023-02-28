@@ -54,7 +54,6 @@ const useStyles = makeStyles({
 });
 
 export default function App(props) {
-  console.log(props);
   const styles = useStyles();
   const Projects = require("../../data/json/projects.json");
   const GroupedProjects = groupBy(Projects, "year");
