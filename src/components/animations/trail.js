@@ -7,9 +7,9 @@ function Trail({ open, children, ...props }) {
     const trail = useTrail(items.length, {
       config: { mass: 5, tension: 2000, friction: 300 },
       opacity: open ? 1 : 0,
-      x: open ? 0 : 20,
+      x: open ? 0 : 1000,
       height: open ? "auto" : 0,
-      from: { opacity: 0, x: 20, height: 0 },
+      from: { opacity: 0, x: -50, height: 0 },
     })
     return (
       <div className="trails-main" {...props}>
