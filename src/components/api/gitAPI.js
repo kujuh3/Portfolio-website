@@ -6,7 +6,7 @@ const octokit = new Octokit({
 
 export async function directories() {
   let response = await octokit.request("GET /users/{username}/repos", {
-    username: "kujuh3",
+    username: `${process.env.REACT_APP_USERNAME}`,
   });
   return response;
 }
@@ -37,7 +37,7 @@ export async function commits() {
     };
     const body = {
       query: `query {
-            user(login: "kujuh3") {
+            user(login: "${process.env.REACT_APP_USERNAME}") {
               name
               contributionsCollection (from: "${new Date(
                 fromYear
