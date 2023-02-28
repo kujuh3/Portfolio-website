@@ -55,6 +55,7 @@ const useStyles = makeStyles({
 
 });
 
+<<<<<<< Updated upstream
 /*function Trail({ open, children, ...props }) {
   const items = React.Children.toArray(children)
   const trail = useTrail(items.length, {
@@ -81,6 +82,9 @@ const useStyles = makeStyles({
 }*/
 
 export default function App() {
+=======
+export default function App(props) {
+>>>>>>> Stashed changes
   const styles = useStyles();
   const Projects = require('../../data/json/projects.json');
   const [open, set] = useState(true)
