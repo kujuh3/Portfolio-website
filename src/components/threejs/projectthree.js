@@ -48,8 +48,9 @@ const useStyles = makeStyles({
     color: "white",
   },
   projectpic: {
-    width: "80%",
+    width: "100%",
     boxShadow: "5px 5px #f69b15",
+    marginTop: "10px"
   },
 });
 
