@@ -1,5 +1,15 @@
 [
-    
+    {
+        "name" : "L-System interpreter",
+        "picture" : "/img/l-system.webp",
+        "description" : "Translates L-system instructions into visual representations. Input variables, rules and angle to draw a visual representation of a given curve using L-systems. For example: the thumbnail is 12 iterations of Dragon curve with rule sets of (F → F+G), (G → F-G) and an angle of 90°",
+        "github" : "https://github.com/kujuh3/l-system_visualizer",
+        "link" : "https://github.com/kujuh3/l-system_visualizer",
+        "techs" : [
+            "Python", "Turtle" 
+        ],
+        "year": "2023"
+    },
     {
         "name" : "Twitter Bot",
         "picture" : "/img/twitterbot.webp",
@@ -8,7 +18,8 @@
         "link" : "https://github.com/kujuh3/Twitter-follow-unfollow",
         "techs" : [
             "Python", "Tweepy" 
-        ]
+        ],
+        "year": "2022"
     },
     {
         "name" : "Codesnippets",
@@ -18,17 +29,8 @@
         "link" : "https://quicksnippets.herokuapp.com/",
         "techs" : [
             "React", "Node", "Express", "PostgreSQL" 
-        ]
-    },
-    {
-        "name" : "CV/Portfolio site",
-        "picture" : "/img/cvsite.webp",
-        "description" : "My previous portfolio site. First real touch at making a website with React. Designed to be as responsible as possible. Includes an info section for: 'Header info', 'Education', 'Skills and details', 'Socials', 'Contact'.",
-        "github" : "https://github.com/kujuh3/CVSITE",
-        "link" : "https://tietsikkajuho.netlify.app/",
-        "techs" : [
-            "React", "CSS", "HTML", "Material-UI", "Node"
-        ]
+        ],
+        "year": "2022"
     },
     {
         "name" : "CV/Portfolio site V2",
@@ -38,7 +40,19 @@
         "link" : "https://www.tietsikkajuho.fi/",
         "techs" : [
             "React", "CSS", "JS", "Material-UI", "Node", "ThreeJS" 
-        ]
+        ],
+        "year": "2022"
+    },
+    {
+        "name" : "CV/Portfolio site",
+        "picture" : "/img/cvsite.webp",
+        "description" : "My previous portfolio site. First real touch at making a website with React. Designed to be as responsible as possible. Includes an info section for: 'Header info', 'Education', 'Skills and details', 'Socials', 'Contact'.",
+        "github" : "https://github.com/kujuh3/CVSITE",
+        "link" : "https://tietsikkajuho.netlify.app/",
+        "techs" : [
+            "React", "CSS", "HTML", "Material-UI", "Node"
+        ],
+        "year": "2021"
     },
     {
         "name" : "Weather app",
@@ -48,7 +62,8 @@
         "link" : "https://cosmic-clafoutis-7c093f.netlify.app/",
         "techs" : [
             "React", "CSS", "HTML", "Material-UI"
-        ]
+        ],
+        "year": "2021"
     },
     {
         "name" : "Post-stamps app",
@@ -58,6 +73,7 @@
         "link" : "https://helpful-swan-f2321b.netlify.app/",
         "techs" : [
             "React", "CSS", "HTML", "Material-UI", "React-Router"
-        ]
+        ],
+        "year": "2021"
     }
 ]
